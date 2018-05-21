@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+	<webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+		<metaData>
+			<type name="Ridgian.Carpetright.Samples.WebParts.CreateSampleOrder.CreateSampleOrder, $SharePoint.Project.AssemblyFullName$" />
+			<importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+		</metaData>
+		<data>
+			<properties>
+				<property name="Title" type="string">Create Sample Order</property>
+				<property name="Description" type="string">Web Part used to place sample orders</property>
+				<property name="ExportMode" type="exportmode">All</property>
+			</properties>
+		</data>
+	</webPart>
+</webParts>

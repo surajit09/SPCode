@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
-  <Module Name="ViewSampleOrder" List="113" Url="_catalogs/wp">
-    <File Path="ViewSampleOrder\ViewSampleOrder.webpart" Url="Ridgian.Carpetright.Samples_ViewSampleOrder.webpart" Type="GhostableInLibrary" >
+  <Module Name="CreateSampleOrder" List="113" Url="_catalogs/wp">
+    <File Path="CreateSampleOrder\CreateSampleOrder.webpart" Url="Ridgian.Carpetright.Samples_CreateSampleOrder.webpart" Type="GhostableInLibrary" >
       <Property Name="Group" Value="Carpetright" />
     </File>
   </Module>
