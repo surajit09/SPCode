@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
-  <Module Name="CreateSampleOrder" List="113" Url="_catalogs/wp">
-    <File Path="CreateSampleOrder\CreateSampleOrder.webpart" Url="Ridgian.Carpetright.Samples_CreateSampleOrder.webpart" Type="GhostableInLibrary" >
-      <Property Name="Group" Value="Carpetright" />
-    </File>
-  </Module>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100AFEC9A5BB6354A9EABF2666A46B97515" Name="Sample" Group="Carpetright" Description="Sample Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{3169e8a2-81dd-4312-b72f-21d3c7069446}" DisplayName="Store Number" Required="TRUE" Name="CRStoreNumber" />
+      <FieldRef ID="{cea73dd8-ecde-4816-a33f-1faf39f70180}" DisplayName="Email Address" Required="TRUE" Name="CREmailAddress" />
+      <FieldRef ID="{f7353eae-762d-4f47-a743-c4eccbb5236f}" DisplayName="Manufacturer" Required="TRUE" Name="CRManufacturer" />
+      <FieldRef ID="{d85a5e74-c69a-4055-a10e-5ea71dfe2065}" DisplayName="Range" Required="TRUE" Name="CRRange" />
+      <FieldRef ID="{4022f679-20a6-49e5-9fcf-822601bd0329}" DisplayName="Article" Required="TRUE" Name="CRArticle" />
+      <FieldRef ID="{09fc7119-cf33-43d2-9a06-f155a651aca9}" DisplayName="Description" Required="TRUE" Name="CRDescription" />
+      <FieldRef ID="{f18ca51f-0203-4fd8-83fb-734df33d7ad2}" DisplayName="Quantity" Required="TRUE" Name="CRQuantityOfSamples" />
+      <FieldRef ID="{bc44d338-8ab5-47d6-bcef-788ba03add90}" DisplayName="Reason for new samples" Required="TRUE" Name="CRReasonForNewSamples" />
+      <FieldRef ID="{502b09a6-83e3-4cc1-8e4d-1265418f42e0}" DisplayName="Date of order" Required="FALSE" Name="CRDateOfOrder" Format="DateOnly" />
+      <FieldRef ID="{65c63691-ffa0-473b-8085-69ad9786089a}" DisplayName="Notes" Required="FALSE" Name="CRNotes" />
+    </FieldRefs>
+  </ContentType>
 </Elements>
